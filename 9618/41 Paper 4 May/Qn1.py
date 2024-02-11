@@ -8,6 +8,10 @@ class node():
             print(str(linkedList[startPointer].data))
             startPointer = linkedList[startPointer].nextNode
 
+    def addNode(self,linkedList,startPointer,emptyList):
+        datatoadd = int(input("Enter the data to be added:"))
+        if emptyList > 9 or emptyList < 0:
+            return False
 linkedList = [node(1,1),node(5,4),node(6,7),node(7,-1),node(2,2),node(0,6),node(0,8),node(56,3),node(0,9),node(0,-1)]
 startPointer =0
 emptyList = 5
