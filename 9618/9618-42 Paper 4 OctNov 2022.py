@@ -17,7 +17,7 @@ class character():
         self.XCoordinate = self.XCoordinate + XChange
         self.YCoordinate = self.YCoordinate + YChange
 
-filename = "D:\Python\Paganini\Characters.txt"
+filename = "/Characters.txt"
 ArrayCharacter=[""]*30
 x=open(filename,'r')
 for i in range(0,10):
