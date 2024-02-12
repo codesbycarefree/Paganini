@@ -24,7 +24,7 @@ class Picture():
 def ReadData():
     index =0
     Picturearray = [0]*100
-    for i in range(100)
+    for i in range(100):
         Picturearray.append(Picture("",0,0,""))
 
     try:
@@ -41,4 +41,3 @@ def ReadData():
     except IOError:
         print("Couldn't find the file.")
     return Picturearray
-
