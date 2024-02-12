@@ -24,10 +24,21 @@ class Picture():
 def ReadData():
     index =0
     Picturearray = [0]*100
+    for i in range(100)
+        Picturearray.append(Picture("",0,0,""))
+
     try:
         Filename = "Pictures.txt"
         File = open(Filename,'r')
-        
+        Description = File.readline().rstrip()
+        while Description != "":
+            Width = int(File.readline())
+            Height = int(File.readline())
+            Framecolour = File.readline().rstrip()
+            Picturearray[index]= Picture(Description,Width,Height,Framecolour)
+            Description = File.readline().rstrip()
+            index =+1
     except IOError:
         print("Couldn't find the file.")
     return Picturearray
+
