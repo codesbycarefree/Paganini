@@ -1,10 +1,10 @@
 import datetime
 class Character():
     def __init__(self,namep,birthdatep,piq,speedp):
-        self.__CharacterName = namep
-        self.__DateOfBirth = birthdatep
-        self.__Intelligence = piq
-        self.__Speed = speedp
+        self.__CharacterName = namep #string
+        self.__DateOfBirth = birthdatep #date
+        self.__Intelligence = piq #integer
+        self.__Speed = speedp #integer
 
     def GetIntelligence(self):
         return self.__Intelligence
@@ -28,7 +28,7 @@ print("The character's name is",str(FirstCharacter.GetName())+", his age is",Fir
 
 class MagicCharacter(Character):
     def __init__(self,elementp,namep,birthdatep,piq,speedp,):
-        self.__Element = elementp
+        self.__Element = elementp #string
         super().__init__(self,namep,birthdatep,piq,speedp)
 
     def Learn(self):
