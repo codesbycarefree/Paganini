@@ -37,6 +37,7 @@ def PopVowel():
     if VowelTop-1>=0:
         VowelTop = VowelTop-1
     else:
+        print("will complete")
         
 def PopConsonant():
-    
+    print("waiting")
