@@ -37,6 +37,6 @@ def PopVowel():
     if VowelTop-1>=0:
         VowelTop = VowelTop-1
     else:
-
-
+        
 def PopConsonant():
+    
