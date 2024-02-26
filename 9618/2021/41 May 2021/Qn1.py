@@ -18,7 +18,6 @@ class node():
             emptyList = linkedList[emptyList].nextNode
             previouspointer =  0
             while startPointer != -1:
-                ass=0
                 previouspointer=startPointer
                 linkedList[startPointer].nextnode = emptyList
                 emptylist = linkedList
